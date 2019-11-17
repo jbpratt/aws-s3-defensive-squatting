@@ -9,6 +9,6 @@ Options: -h | --hard    Use the file with more common words
 ```
 
 ## Tips:
-Running this script will attempt to create 60 buckets in the same account. AWS S3 has a 100 bucket soft limit on all accounts by default. If you need additional buckets, you can increase your bucket limit by submitting a service limit increase. For information about how to increase your bucket limit, go to AWS Service Limits in the AWS General Reference.
+Running this script will attempt to create 60 buckets in the same account, running with the `-h` flag will create 600. AWS S3 has a 100 bucket soft limit on all accounts by default. If you need additional buckets, you can increase your bucket limit by submitting a service limit increase. For information about how to increase your bucket limit, go to AWS Service Limits in the AWS General Reference.
 
 https://github.com/owasp-cloud-security/owasp-cloud-security/issues/34
