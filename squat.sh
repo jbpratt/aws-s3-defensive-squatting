@@ -27,7 +27,7 @@ for companyname in $companynames; do
 		for delim in "${delimiters[@]}"; do
 			bucket=$(printf "%s%s%s" $companyname $delim $i)
 			res=$(aws s3api head-bucket --bucket $bucket 2> >(grep -c '403'))
-			if [ $res -ge 1 ]; then
+			if [[ $res -eq 1 ]]; then
 				echo "$bucket already exists"
 				continue
 			fi
