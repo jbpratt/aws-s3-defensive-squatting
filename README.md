@@ -1,4 +1,4 @@
-# AWS Defensive S3 Squatting
+# AWS S3 Defensive Squatting
 
 <sub>yes, this is still just squatting..</sub>
 
